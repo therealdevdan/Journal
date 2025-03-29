@@ -16,7 +16,7 @@ file(GLOB_RECURSE SOURCES "src/*.cpp")
 
 add_executable(journal_system ${SOURCES})
 
-# Для Linux/Unix добавляем pthread для std::thread
+# Для Linux/Unix
 if(UNIX AND NOT APPLE)
     target_link_libraries(journal_system pthread)
 endif()
