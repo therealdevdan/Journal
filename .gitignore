@@ -1,0 +1,19 @@
+# Build directories
+build/
+*/build/
+x64/
+Debug/
+Release/
+
+# Compiled files
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
